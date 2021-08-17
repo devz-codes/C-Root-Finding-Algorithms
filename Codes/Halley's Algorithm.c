@@ -2,7 +2,7 @@
 #include<math.h>
 
 double function(double x){
-	return pow(x,5)+pow(x,3)+1; //f(x)=x^5+x^3+1
+	return log10(x)-1.2; //f(x)=log10(x)-1.2;
 }
 
 double derivative(double x,int i){
